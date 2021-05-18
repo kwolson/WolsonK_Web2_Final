@@ -9,7 +9,7 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/deploy\/css\/_header.css" : {
+    "\/deploy\/_hero1.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,7 +17,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/deploy\/css\/_header-min.css",
+      "oAP" : "\/deploy\/_hero1-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -264,89 +264,89 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/about.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/cams.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/cams.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/encounters.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/encounters.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/events.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/events.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/gallery.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/hero1.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/hero2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/hero2.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
@@ -354,7 +354,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -548,9 +548,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_about.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_about.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -562,9 +562,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_cams.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_cams.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -576,9 +576,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_encounters.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_encounters.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -590,9 +590,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_events.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_events.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -604,9 +604,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_gallery.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -618,9 +618,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero1.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_hero1.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
@@ -632,9 +632,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero2.css",
-      "oF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/_hero2.css",
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1

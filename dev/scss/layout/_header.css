@@ -1,0 +1,16 @@
+header {
+  background-color: #DAA7D9;
+  color: #fff display; }
+  header grid
+> div {
+    grid-area: header; }
+    header grid
+> div h1 {
+      font-family: 'Londrina Solid', cursive;
+      font-style: regular;
+      font-size: 36; }
+    header grid
+> div p {
+      background-color: #FFF3A5;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 12; }
