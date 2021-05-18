@@ -2,7 +2,7 @@
 
 // Helpers Styles
 @import "helpers/_mixins";
-@import "helpers/_variables";
+@import "helpers/_variables.scss";
 
 // Base Styles
 @import "base/_normalize";
@@ -15,11 +15,14 @@
 @import "components/_navigation";
 
 // Layout Styles
-@import "layout/_header";
+@import "layout/_header.scss";
 @import "layout/_footer";
 
 // Sections Styles
-@import "sections/_section-1";
-@import "sections/_section-2";
-@import "sections/_section-3";
-@import "sections/_section-4";
+@import "sections/_about";
+@import "sections/_cams";
+@import "sections/_gallery";
+@import "sections/_encounters";
+@import "sections/_events";
+@import "sections/_hero1";
+@import "sections/_hero2";
