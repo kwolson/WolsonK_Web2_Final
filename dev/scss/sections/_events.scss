@@ -1,0 +1,17 @@
+#events {
+    display: table-column;
+    columns: 1;
+    grid-row: 100;
+    >div {
+        h1 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 18;
+}
+    >div {
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12;
+        }
+    }
+}
+}
