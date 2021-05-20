@@ -1,7 +1,7 @@
 #events {
-    display: table-column;
-    columns: 1;
-    grid-row: 100;
+    grid-template-rows: "scav", "camp", "egg";
+
+    }
     >div {
         h1 {
     font-family: 'Londrina Solid', cursive;
@@ -14,4 +14,8 @@
         }
     }
 }
+#scav {
+    button {
+        background-color: #2F5467;;
+    }
 }

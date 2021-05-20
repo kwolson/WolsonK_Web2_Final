@@ -463,17 +463,20 @@ header grid > div p {
 }
 
 #events {
-  display: table-column;
-  columns: 1;
-  grid-row: 100;
+  grid-template-rows: "scav", "camp", "egg";
 }
-#events > div h1 {
+
+> div h1 {
   font-family: "Londrina Solid", cursive;
   font-size: 18;
 }
-#events > div > div p {
+> div > div p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12;
+}
+
+#scav {
+  background-color: #2F5467;
 }
 
 #hero1 {
