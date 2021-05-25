@@ -9,6 +9,30 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/deploy\/_about.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/_about-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/_events.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/_events-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/_hero1.css" : {
       "aP" : 1,
       "bl" : 0,
