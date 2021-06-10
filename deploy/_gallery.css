@@ -1,0 +1,3 @@
+.gallery-images {
+  display: grid;
+  grid-template-columns: pic1 pic2 pic3 pic4; }

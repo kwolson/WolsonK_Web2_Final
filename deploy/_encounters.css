@@ -1,0 +1,9 @@
+.GE {
+  display: grid; }
+
+.CE {
+  display: grid; }
+
+.RE {
+  display: grid;
+  grid-column: 2; }

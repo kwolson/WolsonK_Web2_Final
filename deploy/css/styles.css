@@ -463,6 +463,24 @@ textarea {
   margin-top: 20px;
 }
 
+.gallery-images {
+  display: grid;
+  grid-template-columns: pic1 pic2 pic3 pic4;
+}
+
+.GE {
+  display: grid;
+}
+
+.CE {
+  display: grid;
+}
+
+.RE {
+  display: grid;
+  grid-column: 2;
+}
+
 #events {
   margin-top: 50px;
 }
@@ -534,15 +552,9 @@ button {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 6001px) and (max-width: 800px) {
-  .parent {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
+@media screen and (min-width: 601px) {
   .meercats {
-    width: 600px;
+    width: 800px;
     position: relative;
     margin-top: 0;
     margin-left: 0;
@@ -576,4 +588,8 @@ button {
   background-color: #F2A359;
   border-radius: 20px;
   outline-color: none;
+}
+
+h2 {
+  color: #2F5467;
 }
