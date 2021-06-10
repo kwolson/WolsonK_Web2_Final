@@ -384,6 +384,7 @@ ul li {
 ============= */
 body {
   font-family: "Montserrat", sans-serif;
+  font-family: "Londrina Solid", cursive;
 }
 
 h1, h2, h3, h4 {
@@ -432,38 +433,34 @@ textarea {
 /* =============
     Navigation
 ============= */
-header {
-  background-color: #DAA7D9;
-  color: #fff display;
+#titleheader {
+  text-align: center;
+  font-size: 24pt;
 }
-header grid > div {
-  grid-area: header;
-}
-header grid > div h1 {
-  font-family: "Londrina Solid", cursive;
-  font-style: regular;
-  font-size: 36;
-}
-header grid > div p {
+
+#covid {
+  font-size: 16pt;
+  text-align: center;
   background-color: #FFF3A5;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 12;
+  margin-bottom: 20px;
+  align-content: center;
+  margin-left: 50px;
 }
 
 /* =============
     Footer
 ============= */
-#about {
-  grid-template-columns: 1;
-  grid-template-rows: 3;
+#abouttext {
+  text-align: center;
+  margin-left: 50px;
 }
-#about > div h1 {
-  font-family: "Londrina Solid", cursive;
-  font-size: 18;
+
+#rentbutton {
+  margin-top: 20px;
 }
-#about > div > div p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 12;
+
+#busres {
+  margin-top: 20px;
 }
 
 #events {
@@ -479,18 +476,32 @@ header grid > div p {
   font-size: 12;
 }
 
-#scav button {
-  background-color: #2F5467;
+/* Mobile Styles */
+@media only screen and (max-width: 640px) {
+  #heroimage {
+    max-width: 640px;
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+  #heroimage {
+    width: fit-content;
+  }
+}
+/* Desktop Styles */
+h1 {
+  color: #2F5467;
+  font-family: "Londrina Solid", cursive;
 }
 
-#hero1 {
-  background-image: img/hero1/alexander-ross-myeQ2RH1PX0-unsplash;
-}
-#hero1 > div h1 {
-  font-family: "Londrina Solid", cursive;
-  font-size: 18;
-}
-#hero1 > div > div p {
+p {
+  color: #2F5467;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 12;
+}
+
+button {
+  color: #FFFF;
+  background-color: #F2A359;
+  border-radius: 20px;
+  outline-color: none;
 }
