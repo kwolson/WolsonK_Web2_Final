@@ -1,6 +1,28 @@
- #h1 {
-    .bottom-left {
-        position: absolute;
-        bottom: 8px;
-        left: 16px;
- }
+    @media screen and (max-width: 600px){   
+        .heroimage{
+        width: 600px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        }
+        .herotext{      
+            src: ("img/hero1/Group 15.png");
+            position: absolute;
+            margin-top: -150px;
+            margin-left: 30px;
+        } 
+    }
+    @media screen and (min-width:601px) {   
+        .heroimage{
+        width: 800px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        }
+        .herotext{      
+            src: ("img/hero1/Group 13.png");
+            position: absolute;
+            margin-top: -150px;
+            margin-left: 30px;
+        } 
+    }

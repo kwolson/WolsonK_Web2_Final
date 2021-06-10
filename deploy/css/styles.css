@@ -464,31 +464,96 @@ textarea {
 }
 
 #events {
-  grid-template-rows: "scav", "camp", "egg";
+  margin-top: 50px;
 }
 
-> div h1 {
-  font-family: "Londrina Solid", cursive;
-  font-size: 18;
-}
-> div > div p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 12;
+h1 {
+  text-align: center;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 640px) {
-  #heroimage {
-    max-width: 640px;
+#scav, #camp, #egg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .heroimage {
+    width: 600px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .herotext {
+    src: "img/hero1/Group 15.png";
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 30px;
   }
 }
-/* Tablet Styles */
-@media only screen and (min-width: 641px) and (max-width: 1007px) {
-  #heroimage {
-    width: fit-content;
+@media screen and (min-width: 601px) {
+  .heroimage {
+    width: 800px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .herotext {
+    src: "img/hero1/Group 13.png";
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 30px;
   }
 }
-/* Desktop Styles */
+#hero2 {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .meercats {
+    width: 600px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .meercattext {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (min-width: 6001px) and (max-width: 800px) {
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .meercats {
+    width: 600px;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .meercattext {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 30px;
+  }
+}
 h1 {
   color: #2F5467;
   font-family: "Londrina Solid", cursive;
@@ -496,6 +561,13 @@ h1 {
 
 p {
   color: #2F5467;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p2 {
+  color: #FFFF;
+  background-color: #2F5467;
+  border-radius: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 

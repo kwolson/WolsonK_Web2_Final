@@ -21,6 +21,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/_events.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/_events-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/_hero1.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -30,6 +42,18 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/_hero1-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/_hero2.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/_hero2-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -240,6 +264,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero1\/Group 13.png" : {
+      "ft" : 32768,
+      "iS" : 35947,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero1\/Group 13.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero1\/Group 15.png" : {
+      "ft" : 32768,
+      "iS" : 6417,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero1\/Group 15.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero2\/Group 12.png" : {
+      "ft" : 32768,
+      "iS" : 39601,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero2\/Group 12.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero2\/Group 16.png" : {
+      "ft" : 32768,
+      "iS" : 22248,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero2\/Group 16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero2\/meerkats-5756042_1920.png" : {
       "ft" : 32768,
       "iS" : 2052176,
@@ -296,6 +372,14 @@
       "oAP" : "\/dev\/content\/encounters.html",
       "oF" : 1
     },
+    "\/dev\/content\/events.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/events.html",
+      "oF" : 0
+    },
     "\/dev\/content\/events.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -312,6 +396,14 @@
       "oAP" : "\/dev\/content\/gallery.html",
       "oF" : 1
     },
+    "\/dev\/content\/hero1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero1.html",
+      "oF" : 0
+    },
     "\/dev\/content\/hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -319,6 +411,14 @@
       "oA" : 0,
       "oAP" : "\/dev\/content\/hero1.html",
       "oF" : 1
+    },
+    "\/dev\/content\/hero2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero2.html",
+      "oF" : 0
     },
     "\/dev\/content\/hero2.kit" : {
       "cB" : 0,
@@ -538,6 +638,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/dev\/scss\/layout\/_header.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/layout\/_header-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
