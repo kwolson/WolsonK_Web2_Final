@@ -478,7 +478,6 @@ textarea {
 
 .RE {
   display: grid;
-  grid-column: 2;
 }
 
 #events {
